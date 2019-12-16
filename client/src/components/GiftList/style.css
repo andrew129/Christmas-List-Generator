@@ -1,0 +1,31 @@
+.gifts {
+    margin: 20px;
+    background-image: linear-gradient(to right, rgb(24, 116, 24), rgb(218, 34, 34), rgb(36, 100, 36));
+    border: solid 2px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.giftwrap {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.image {
+    width: 150px;
+    height: 120px;
+    border: black solid 2px;
+}
+
+.gift {
+    font-size: 27px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
